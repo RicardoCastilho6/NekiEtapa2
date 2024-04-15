@@ -1,9 +1,5 @@
 package br.com.ricardo.nekiapi.Controller;
 
-
-
-
-
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;

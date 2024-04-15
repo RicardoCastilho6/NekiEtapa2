@@ -6,13 +6,13 @@ public class UsuarioSkillRequestDTO {
 
     private Long id;
 
-    @NotBlank (message = "OBRIGATÒRIO")
+    @NotBlank (message = "OBRIGATÓRIO")
     private Long usuarioId;
 
-    @NotBlank (message = "OBRIGATÒRIO")
+    @NotBlank (message = "OBRIGATÓRIO")
     private Long skillId;
 
-    @NotBlank (message = "OBRIGATÒRIO")
+    @NotBlank (message = "OBRIGATÓRIO")
     private int level;
 
     public Long getUsuarioId() {
